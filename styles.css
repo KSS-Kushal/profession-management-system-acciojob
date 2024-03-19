@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #FFF;
+    padding: 40px;
+}
+
+h3{
+    margin: 20px 0;
+}
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.label{
+    font-size: 12px;
+}
+
+.input{
+    background-color: transparent;
+    border: 1px solid #FFF;
+    padding: 7px 12px;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFF;
+}
+
+.buttonContainer{
+    margin: 16px 0;
+}
+
+.button{
+    padding: 8px 30px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.addText{
+    padding: 16px 0;
+    font-size: 14px;
+}
+
+.error{
+    font-size: 14px;
+    color: #F00;
+}
+
+.success{
+    font-size: 14px;
+    color: #00F000;
+}
+
+.employeeText{
+    font-size: 12px;
+    color: #808080;
+}
+
+.displayUserContainer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.userContainer{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+}
+
+.deleteButton{
+    padding: 7px 20px;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 14px;
+}

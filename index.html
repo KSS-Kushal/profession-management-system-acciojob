@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profession Management System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h3>New Employees</h3>
+    <div class="inputContainer">
+      <div class="container">
+        <label for="name" class="label">Enter Name</label>
+        <input type="text" id="name" class="input" onchange="onChange(event)" />
+      </div>
+      <div class="container">
+        <label for="profession" class="label">Enter Profession</label>
+        <input type="text" id="profession" class="input" onchange="onChange(event)" />
+      </div>
+      <div class="container">
+        <label for="age" class="label">Enter Age</label>
+        <input type="text" id="age" class="input"  onchange="onChange(event)"/>
+      </div>
+    </div>
+    <div class="buttonContainer">
+      <button class="button" onclick="addUser()">Add User</button>
+    </div>
+    <div id="status"></div>
+    <div class="addText">Added Employees</div>
+    <div id="displayUser"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
